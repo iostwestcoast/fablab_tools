@@ -1,0 +1,253 @@
+.tool-item{
+    padding: 1rem;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+}
+
+#tools-list{
+    position: absolute;
+    width: 376px;
+    height: 44px;
+    left: 70px;
+    top: 597px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+}
+
+.glass{
+    position: absolute;
+    width: 1119px;
+    height: 267px;
+    left: 70px;
+    top: 173px;
+    
+    background: rgba(255, 255, 255, 0.07);
+    box-shadow: 0px 0px 9px 8px rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(9.5px);
+
+    border-radius: 10px;
+}
+
+#pic{
+    position: absolute;
+    width: 1280px;
+    height: 343px;
+    left: -4px;
+    top: 134px;
+    
+    background: url(1.png);
+}
+
+#head{
+    position: absolute;
+    width: 809px;
+    height: 118px;
+    left: 86px;
+    top: 38px;
+    
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    
+    color: #000000;    
+}
+
+#b1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 194px;
+    height: 34px;
+    left: 19px;
+    top: 21px;
+    
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+#b2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 194px;
+    height: 34px;
+    left: 19px;
+    top: 68px;
+    
+    border: 1px solid #FFFFFF;
+}
+
+#b3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 194px;
+    height: 34px;
+    left: 19px;
+    top: 115px;
+    
+    border: 1px solid #FFFFFF;
+}
+
+#b4{
+    position: absolute;
+    width: 194px;
+    height: 42px;
+    left: 19px;
+    top: 205px;
+
+    background: #000000;
+    box-shadow: 0px 0px 19px 3px rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(9.5px);
+
+    border-radius: 3px;
+}
+
+#b5{
+    position: absolute;
+    width: 230px;
+    height: 42px;
+    left: 86px;
+    top: 511px;
+    
+    border: 1px solid #000000;
+    backdrop-filter: blur(9.5px);
+
+    border-radius: 1px;
+}
+
+#type{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 194px;
+    height: 34px;
+    
+    border: 1px solid #FFFFFF;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+#room{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 194px;
+    height: 34px;
+    
+    border: 1px solid #FFFFFF;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+#title{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 194px;
+    height: 34px;
+    
+    border: 1px solid #FFFFFF;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+#bt1{
+    position: absolute;
+    width: 194px;
+    height: 42px;
+    
+    background: #000000;
+    box-shadow: 0px 0px 19px 3px rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(9.5px);
+
+    border-radius: 3px;
+    border: none;
+    
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#bt2{
+    position: absolute;
+    width: 230px;
+    height: 42px;
+    
+    border: 1px solid #000000;
+    backdrop-filter: blur(9.5px);
+    
+    border-radius: 1px;
+
+    position: absolute;
+    
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+select, input {
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    background: none;
+    color: white;
+}
+
+#b6{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 194px;
+    height: 34px;
+    left: 400px;
+    top: 511px;
+    
+    border: 1px solid #FFFFFF;
+}

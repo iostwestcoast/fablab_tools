@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+        <title>FabLab Tools</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Playfair+Display&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="head">
+            FabLab Tools
+        </div>
+        <br />
+            <img id="pic" src="1.png">
+        <div class="glass">
+            <div id="b1">
+                <input id="title" type="text" placeholder="Title of the tool">
+            </div>
+            <br />
+            <div id="b2">
+                <select id="room">
+                    <option>016</option>
+                    <option>018</option>
+                    <option>112</option>
+                </select>
+            </div>
+            <br />
+            <div id="b3">
+                <select id="type">
+                    <option>Hammer</option>
+                    <option>Screwdriver</option>
+                    <option>Glue gun</option>  
+                    <option>Cutters</option>
+                    <option>Soldering iron</option>
+                </select>
+            </div>
+            <br />
+            <div id="b4">
+                <button id="bt1" onclick="addToolToDBPressed()">Add tool</button>
+            </div>
+        </div>
+        <br />
+
+
+        <br />
+        <div id="b5">
+            <button id="bt2" onclick="gettool()">GET ALL TOOLS</button>
+        </div>
+
+        <div id="b6">
+            <select id="type1">
+                <option>Hammer</option>
+                <option>Screwdriver</option>
+                <option>Glue gun</option>  
+                <option>Cutters</option>
+                <option>Soldering iron</option>
+            </select>
+        </div>
+
+        <div id="tools-list">
+            <button id="bt3" onclick="deleteFromDBPressed()">Delete</button>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
